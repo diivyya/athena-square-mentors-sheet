@@ -1,0 +1,55 @@
+.mentor-data {
+    margin: 3.2rem;
+    display: flex;
+}
+
+.card {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    min-width: 50vh;
+    height: auto;
+    margin: 3rem;
+    margin-top: 0;
+    text-align: center;
+}
+img {
+    width: 8rem;
+    height: auto;
+    float: center;
+}
+.card:hover {
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.card-name {
+    color: rgb(126, 61, 146);
+    font-size: 1.8rem;
+}
+
+.card-company {
+    font-size: 1.2rem;
+}
+
+.card-interests {
+    display: flex;
+}
+
+.card-interests button {
+    background-color: black;
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    margin: 4px 2px;
+    border-radius: 16px;
+}
+
+.break {
+	flex-basis: 100%;
+	height: 0;
+}

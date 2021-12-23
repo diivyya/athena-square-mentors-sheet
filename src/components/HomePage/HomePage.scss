@@ -1,0 +1,42 @@
+.home-page {
+    height: 90vh;
+    background-color: #ec407a;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4.2rem;
+    padding-top: 4rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 5rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-bottom: 2rem;
+}
+
+.home-page-block {
+    background-color: black;
+    border-radius: 1rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    font-size: 1.5rem;
+    padding: 0.7rem;
+}
+
+.home-page-block button {
+    margin: 0.5rem;
+    border-radius: 1rem;
+    background-color: rgb(143, 62, 163);
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+}
